@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="nGage Platform" verbose="3" thread-count="1" parallel="classes">
+
+	<listeners>
+		<listener
+			class-name="com.qa.ngageplatform.listeners.AnnotationTransformer" />
+		<!--<listener
+			class-name="com.qa.ngagee.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.ngageplatform.listeners.TestAllureListener" /> -->
+	</listeners>
+
+	<test name="nGgage Smoke Suite">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!--  -->
+			<class name="com.qa.ngageplatform.smoke.HomePageTest"/>
+			<class name="com.qa.ngageplatform.smoke.MyWorkTest"/>
+			<class name="com.qa.ngageplatform.smoke.MyWorkSimplifiedTest"/> 
+			<class name="com.qa.ngageplatform.smoke.ReportTest"/>
+			<class name="com.qa.ngageplatform.smoke.RepositoryTest"/>
+			<class name="com.qa.ngageplatform.smoke.WMITest"/> 
+		</classes>
+	</test>
+
+</suite>

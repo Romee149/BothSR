@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="classes" name="Failed suite [nGage Platform]" guice-stage="DEVELOPMENT" verbose="3">
+  <listeners>
+    <listener class-name="com.qa.ngageplatform.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="6" parallel="classes" name="nGgage Regression Suite(failed)" verbose="3">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.ngageplatform.smoke.ReportTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyAllWorkItemErrorReportGraghExist_Report005"/>
+          <include name="tearDown"/>
+          <include name="verifyUserlistingReportGraghExist_Report001"/>
+        </methods>
+      </class> <!-- com.qa.ngageplatform.smoke.ReportTest -->
+      <class name="com.qa.ngageplatform.smoke.WMITest">
+        <methods>
+          <include name="verifyCategoryMenuTab_WMI7"/>
+          <include name="verifyReferenceObjectInlineNewDocumentContent_WMI2_WMI_3_WMI_4"/>
+          <include name="setup"/>
+          <include name="verifyMasterObjectFeatureWorkItemComponents_WMI7"/>
+          <include name="VerifyNewLinkDefaultTab_WMI5_WMI6"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.ngageplatform.smoke.WMITest -->
+      <class name="com.qa.ngageplatform.smoke.MyWorkTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyActivityADashboardBarGraphAndWorkItemTableOnAssignmentScreen_MW015"/>
+          <include name="verifyActivityADashboardBarGraphAndWorkItemTableOnNewVsInprocessScreen"/>
+          <include name="verifyAssignedWorkItem"/>
+          <include name="verifyActivityADashboardBarGraphAndWorkItemTableOnEventScreen"/>
+          <include name="tearDown"/>
+          <include name="verifyRouteActivityC_MW010"/>
+        </methods>
+      </class> <!-- com.qa.ngageplatform.smoke.MyWorkTest -->
+      <class name="com.qa.ngageplatform.smoke.RepositoryTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifySearchResultForBusinessModel_Repo001_Repo002"/>
+          <include name="verifySearchResultForDateTimeDoc_Repo003_To_Repo008"/>
+          <include name="verifySearchResultForClosureDoc_Repo009_To_Repo010"/>
+          <include name="verifySearchResultForBusinessModelDoc_Repo011"/>
+          <include name="tearDown"/>
+          <include name="verifySearchResultForWMIMenu_Repo012"/>
+        </methods>
+      </class> <!-- com.qa.ngageplatform.smoke.RepositoryTest -->
+      <class name="com.qa.ngageplatform.smoke.MyWorkSimplifiedTest">
+        <methods>
+          <include name="verifyPageCount_MWS008"/>
+          <include name="setup"/>
+          <include name="verifyCloserActionActivityADetails_MWS001_To_MWS006"/>
+          <include name="verifyWindowInfoAndCount_MWS007"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.ngageplatform.smoke.MyWorkSimplifiedTest -->
+      <class name="com.qa.ngageplatform.smoke.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyFavouritesDocList_HOME_004_HOME_005_HOME_006"/>
+          <include name="verifyUploadedPDFDocument_HOME008"/>
+          <include name="tearDown"/>
+          <include name="verifyRecentDocumentList_HOME_001_HOME_002_HOME_003_HOME007_HOME009"/>
+        </methods>
+      </class> <!-- com.qa.ngageplatform.smoke.HomePageTest -->
+    </classes>
+  </test> <!-- nGgage Regression Suite(failed) -->
+</suite> <!-- Failed suite [nGage Platform] -->

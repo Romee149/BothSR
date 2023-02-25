@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="13" total="14" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-25T00:31:53Z" name="Default suite" finished-at="2023-02-25T00:33:28Z" duration-ms="94530">
+    <groups>
+    </groups>
+    <test started-at="2023-02-25T00:31:53Z" name="Default test" finished-at="2023-02-25T00:33:28Z" duration-ms="94530">
+      <class name="com.qa.ngageplatform.regression.MyWorkTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.ngageplatform.regression.MyWorkTest@298f0a0b]" started-at="2023-02-25T00:31:54Z" name="setup" finished-at="2023-02-25T00:31:57Z" duration-ms="3933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySetResetLayoutForLoanApplication_MW008()[pri:7, instance:com.qa.ngageplatform.regression.MyWorkTest@298f0a0b]" started-at="2023-02-25T00:31:58Z" name="verifySetResetLayoutForLoanApplication_MW008" description="Verify Set Layout of loan application of My Work window by drag and drop column exchnge" finished-at="2023-02-25T00:33:28Z" duration-ms="90254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySetResetLayoutForLoanApplication_MW008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.ngageplatform.regression.MyWorkTest@298f0a0b]" started-at="2023-02-25T00:33:28Z" name="tearDown" finished-at="2023-02-25T00:33:28Z" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ngageplatform.regression.MyWorkTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

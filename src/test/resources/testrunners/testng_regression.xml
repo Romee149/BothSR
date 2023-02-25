@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="nGage Platform" verbose="3" thread-count="4"
+	parallel="classes">
+
+	<listeners>
+		<listener
+			class-name="com.qa.ngageplatform.listeners.AnnotationTransformer" />
+		<!--<listener
+			class-name="com.qa.ngagee.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.qa.ngageplatform.listeners.TestAllureListener" /> -->
+	</listeners>
+
+	<test name="nGgage Regression Suite">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<!--  -->
+			<class name="com.qa.ngageplatform.regression.MWSRegressionTest" /> 
+			<class name="com.qa.ngageplatform.regression.LoginPageTest" />
+			<class name="com.qa.ngageplatform.regression.RepositoryComplaintsTemplateTest" /> 
+			<class name="com.qa.ngageplatform.regression.FeatureMultipageViewerRegressionTest" />
+		</classes>
+	</test>
+
+</suite>

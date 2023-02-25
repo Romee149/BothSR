@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  nGgage Smoke Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>nGgage Smoke Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 10 12:46:43 EST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>935 seconds (935851 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyNextBtnAndPreviousBtn_MV008_MV009()'><b>verifyNextBtnAndPreviousBtn_MV008_MV009</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify next and previous buttons functionalty</td>
+<td></td>
+<td>88</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyReplacedPageInfo_MV021_MV022()'><b>verifyReplacedPageInfo_MV021_MV022</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify uploaded file's pages info by replace page</td>
+<td></td>
+<td>125</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifySplitters_MV004_To_MV007()'><b>verifySplitters_MV004_To_MV007</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify splitters for left close, right close, reset and expand</td>
+<td></td>
+<td>40</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyThumbnailDeleteOptions_MV0023()'><b>verifyThumbnailDeleteOptions_MV0023</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify Thumbnail grid delete message, page info before and after delete page</td>
+<td></td>
+<td>65</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyThumbnailGridAndThumbnailText_MV002()'><b>verifyThumbnailGridAndThumbnailText_MV002</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify Thumbnail grid is open and Thumbnail Text for 2 and 4</td>
+<td></td>
+<td>78</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyThumbnailPageInfo_MV010_MV011()'><b>verifyThumbnailPageInfo_MV010_MV011</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify first and last button fuctionality</td>
+<td></td>
+<td>112</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyThumbnailPageInfo_MV012_MV016()'><b>verifyThumbnailPageInfo_MV012_MV016</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify page info after inserting page number</td>
+<td></td>
+<td>64</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyThumbnailPageInfo_MV017_MV018()'><b>verifyThumbnailPageInfo_MV017_MV018</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify alert pop up message and select all pages link</td>
+<td></td>
+<td>41</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyUploadedFileInfo_MV019()'><b>verifyUploadedFileInfo_MV019</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify uploaded file's pages info by inserting after page</td>
+<td></td>
+<td>121</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyUploadedFileInfo_MV020()'><b>verifyUploadedFileInfo_MV020</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify uploaded file's pages info by inserting before page</td>
+<td></td>
+<td>122</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+<tr>
+<td title='com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest.verifyVisibilityOfPDFDocumentMenus_MV001()'><b>verifyVisibilityOfPDFDocumentMenus_MV001</b><br>Test class: com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest<br>Test method: Verify menus are displayed in newly created WMI Menu Doc</td>
+<td></td>
+<td>33</td>
+<td>com.qa.ngageplatform.tests.FeatureMultipageViewerRegressionTest@21e20ad5</td></tr>
+</table><p>
+</body>
+</html>
